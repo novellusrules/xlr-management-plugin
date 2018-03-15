@@ -1,0 +1,13 @@
+language: java
+sudo: false
+deploy:
+  provider: releases
+  file: build/libs/xlr-managment-plugin-1.0.0-beta.jar
+  skip_cleanup: true
+  on:
+    all_branches: true
+    tags: true
+    repo: xebialabs-community/xlr-managment-plugin
+  api_key:
+    secure:
+      secure: hXGyH72nSmwvv+gyhc/ZfkCVzUzdeqS0kjTf2H8F+L7+j7GbqPOq/bzW9PnaeSv/6O25UQrVNy7PprUSpn+kzfIu4HEXPF4r02UbBMB48zAu5XkaQDLX0PYo89dbc0S/Pcn1CREGLO3DmOyTf1in/VYcnQKmaq5OVdiXgJVh/BjVzCIBrg+MblUjtjAd7n0wN9aNpMtl7+srDqmcMjO2NT7vEh4gVJ2FbKYxrFHLIs1ORKJdJ0Y0Sux5wnuzYOvKiv5Oj6Gaf/ZN/wIWz4WyEuF2ZcCcbVQuqjkvfCihWbxR/vwqGbhT8VQ93e0X/ZAa87a7r2AgCqolB0WAu3J7xD28QJrvHEGScgwWJtasjxwam7W62XQwpEnoiHTRQ2M9Czf7Z+Dh9pG3Ep0WPUFFa0dtVyD7LSELeDRfEC9IvclyevsSiQRLiBJhU3F0jm+L7DE9bqtIEAkBaPHU3yLrvGJ8blW+Xmytf8MyFa6vtlbLzmWDKPwgG82XTK5B9We2XOQha2YOL55MGZ3Mb4e+ldED1Z0FCvk9QldLyJokTCWzB/zByea5eeRlJqsp6lzkYdI7hTLbe92otQK2HOn88z0TabJoxPYgprEP0e+2nykfOkMfn48fhQMz7xXP5aAFlSo6+VPiJ1YO8igCytjkXuZXfOo90iKEwzrJoUowURQ=
