@@ -1,5 +1,6 @@
 # xlr-managment-plugin
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/88ddc998785e4acf8c37db94f126e44d)](https://app.codacy.com/app/novellusrules/xlr-management-plugin?utm_source=github.com&utm_medium=referral&utm_content=novellusrules/xlr-management-plugin&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/novellusrules/xlr-managment-plugin.svg?branch=master)](https://travis-ci.org/novellusrules/xlr-managment-plugin)
 [REPLACE ME WITH CODACY BADGE](https://www.codacy.com)
 [![Code Climate](https://codeclimate.com/github/novellusrules/xlr-managment-plugin/badges/gpa.svg)](https://codeclimate.com/github/novellusrules/xlr-managment-plugin)
